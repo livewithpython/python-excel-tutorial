@@ -8,10 +8,19 @@ How to install
 
 2. pip install matplotlib
 
+3. pip install scikit-learn scipy
+> In case you get error for fortran compiler then you have install **gfortran**. <br/>
+> $ brew install gfortran <br/>
+> If you get permission denired error for the /usr/local/Cellar directory, run the following command: <br/>
+> $ sudo chmod a+w /usr/local/Cellar
+
+4. git clone git@github.com:livewithpython/python-excel-tutorial.git
+   or download from https://github.com/livewithpython/python-excel-tutorial
+
 In case you get exception for matplotlib then following solution may work.
 
-Mac: 
-===
+**Mac:**
+
 The first of these tools we need is pkg-config which helps to configure matplotlib when it is being compiled.
 
 $ brew install pkg-config
@@ -29,19 +38,9 @@ We've added ffmpeg to allow us to save movies while using the excellent matplotl
 $ pip install matplotlib
 
 
-Ubuntu :
-========
+**Ubuntu :**
+
 Install libfreetype6-dev and libpng-dev from the repositories. 
-
-
-3. pip install scikit-learn scipy
-In case you get error for fortran compiler then you have install gfortran.
-$ brew install gfortran
-If you get permission denired error for the /usr/local/Cellar directory, run the following command:
-$ sudo chmod a+w /usr/local/Cellar
-
-4. git clone git@github.com:livewithpython/python-excel-tutorial.git
-   or download from https://github.com/livewithpython/python-excel-tutorial
 
 
 References:
